@@ -1,0 +1,90 @@
+body {
+    margin: 20px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 20px;
+    background-color: blueviolet;
+    color: #fff;
+    text-align: center;
+  }
+  
+  form {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #ccc;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #6209f2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: crosshair;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  li {
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px #170505;
+    border-radius: 5px;
+    overflow: hidden;
+    max-width: 300px;
+  }
+  
+  li img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  li h3 {
+    margin: 0;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  li p {
+    margin: 0;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  li a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  li a:hover {
+    background-color: #f1f1f1;
+  }
